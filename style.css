@@ -1,0 +1,13 @@
+.moveMe {
+  position: absolute;
+  white-space: normal;
+ -webkit-animation: right 14s linear infinite ;
+}
+@-webkit-keyframes right {
+    0%   {left: 13%;}
+    100%  {left: 100%;}
+}
+
+#bnbox{
+  overflow: hidden ;
+}
